@@ -1,0 +1,355 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+.home{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+}
+
+.left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url('../assets/images/background_image.png'), linear-gradient(132.96deg, #C468FF 3.32%, #6E91F6 100%);
+    background-blend-mode: multiply, normal;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.07);
+    width: 50%;
+    padding: 1rem;
+}
+
+.header_text{
+    margin-top: 130px;
+    top: 0;
+    left: 0;
+    height: 320px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo{
+    height: 80px;
+    width: 80px;
+    background: url('../assets/images/logo_white.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+h1, h3, small{
+    color: #FFFFFF;
+}
+
+h1{
+    margin-top: 1rem;
+    font-size: 3rem;
+}
+
+h3{
+    width: 186px;
+    height: 16px;
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 19px;
+    opacity: 0.6;
+    text-align: center;
+    margin-top: 30px;
+}
+
+small{
+    font-size: 12px;
+}
+
+.applogo{
+    margin-top: 50px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.apple{
+    height: 30px;
+    width: 140px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+ }
+
+ .apple div{
+    background: url('../assets/svgs/apple.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60%;
+    width: 60%;
+}
+
+.google{
+   height: 30px;
+   width: 140px;
+   border: 1px solid rgba(255, 255, 255, 0.2);
+   border-radius: 30px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   cursor: pointer;
+}
+
+.google div{
+    background: url('../assets/svgs/google.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50%;
+    width: 60%;
+    margin-top: 0.2rem;
+}
+
+.apple:hover, .google:hover {
+    background-color: rgba(0, 0, 0, 0.328);
+}
+
+.links{
+    margin-top: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.social_media{
+    height: 100px;
+    width: 152px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    opacity: 0.5;
+}
+
+
+.icon_f{
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    background-image: url(../assets/svgs/facebook_icon.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.icon_f:hover{
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.icon_tw{
+    height: 45px;
+    width: 45px;
+    cursor: pointer;
+    background-image: url(../assets/svgs/twitter_icon.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.icon_sta:hover, .icon_tw:hover{
+    height: 55px;
+    width: 55px;
+    cursor: pointer;
+}
+
+
+.icon_sta{
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    background-image: url(../assets/svgs/instagram_icon.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.right{
+    height: 80%;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+
+.top{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1{
+    gap: 1rem;
+    width: 95%;
+    height: 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.signup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000000;
+    border: #000000 1px solid;
+    padding: 12px;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+.signup:hover{
+    background: linear-gradient(132.96deg, #C468FF 3.32%, #6E91F6 100%);
+    background-blend-mode: multiply, normal;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.07);
+    color: #ffffff;
+    border: #ffffff 1px solid;
+}
+
+.account{
+    color: #5b0292;
+    font-size: 0.6rem;
+}
+
+a{
+    font-style: none;
+    text-decoration: none;
+    color: #6E91F6;
+}
+
+
+.middle{
+    width: 100%;
+    height:400px;
+    display: flex;
+    justify-content: center;
+}
+
+.box2{
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    width: 340px;
+    height: 65vh;
+}
+
+.box2 div{
+    width: 340px;
+    height: 47px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    color: #000000;
+}
+
+
+form{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 50vh;
+}
+
+.input_form{
+    display: flex;
+    flex-direction: c;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.17);
+    box-sizing: border-box;
+}
+
+
+input{
+    height: 40px;
+    border: none;
+    width: 100%;
+    opacity: 50%;
+    background-color: #F2F2F2;
+}
+
+div .fa{
+    background-image: url(../assets/svgs/avatar.svg);
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 26px;
+}
+
+div .da{
+    display: flex;
+    background-image: url(../assets/svgs/password.svg);
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 26px;
+}
+.bottom{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign_button{
+    padding: 10px 60px;
+    color: #ffffff;
+    background: linear-gradient(132.96deg, #C468FF 3.32%, #6E91F6 100%);
+    border-radius: 30px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.sign_button:hover{
+    background: #FFFFFF;
+    color:#C468FF;
+    border: #C468FF 1px solid;
+    
+}

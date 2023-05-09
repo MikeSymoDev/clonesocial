@@ -1,0 +1,47 @@
+.header {
+  text-align: center;
+  background-color: white;
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.leftheader {
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-left: 1rem;
+  background-color: aqua;
+}
+
+.rightheader {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 2rem;
+}
+
+.NavLink {
+  color: black;
+}
+
+.motionlogo {
+  margin-right: 10rem;
+}
+
+.headerlinks {
+display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+a {
+  margin: 10px 20px;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: large;
+}
